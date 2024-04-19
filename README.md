@@ -1,2 +1,4 @@
 # BOTIGA
  Botiga veebileht
+
+-Kert
