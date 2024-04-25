@@ -3,19 +3,69 @@ body {
     font-family: "Sen", sans-serif;
 }
 
+/* #cool_id {
+    
+} */
 
-.Blue {
+.banner {
+    background-image: url(sakura_fuji.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.one {
+    color: rgb(255, 143, 195)
+}
+
+.two {
+    color: rgb(137, 52, 52);
+}
+
+.three {
+    color: rgb(145, 223, 230);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+.row {
+    display: flex;
+}
+
+nav ul li a {
+    padding: 5px 10px;
+    display: block;
+    border-bottom: 1px solid royalblue;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid royalblue;
+
+}
+
+.blue {
     padding: 10px;
     background-color: royalblue;
     /* text-align: center; */
     color: snow;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
 
-.White {
+.white {
     padding: 10px;
-    background-color:snow;
-    /* text-align: center; */
+    background-color: snow;
+    /* text-align: center; /////control+ä - comment shorcut*/
     color: snow;
     margin-left: auto;
     margin-right: auto;
@@ -28,4 +78,9 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 800px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
