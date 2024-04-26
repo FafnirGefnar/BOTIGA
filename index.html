@@ -15,7 +15,7 @@
     <header>
         <section class="white">
             <div class="container">
-                <div class="row">
+                <div class="row flex_space_between">
                     <div class="column">
                         <a href="https://demo.athemes.com/themes/?theme=Botiga%20Multi%20Vendor" target="_blank">
                             <img src="./botiga_logo.svg" alt="botiga logo">
@@ -24,16 +24,23 @@
                     <div class="column">
                         <form action="#">
                             <select name="#" id="#">
-                                <option value="">Kõik</option>
-                                <option value="">Roheline tee</option>
-                                <option value="">Kohvi</option>
-                                <option value="">Mullivesi</option>
+                                <option value="">All categories</option>
+                                <option value="">Body Lotion</option>
+                                <option value="">Electronics</option>
+                                <option value="">Watch</option>
+                                <option value="">Sports</option>
+                                <option value="">Woman Clothes</option>
+                                <option value="">Shoes</option>
+                                <option value="">General</option>
+                                <option value="">Computer Gadget</option>
+                                <option value="">Fashion</option>
+                                <option value="">Sports</option>
                             </select>
                             <input type="text">
                             <input type="submit" value="&#128269;">
                         </form>
                     </div>
-                    <div class="column">
+                    <div class="column top-right-menu-logos">
                         <a href="https://maps.google.com" target="_blank"><i class="fa-solid fa-user"></i></a>
                         <a href="https://hesburger.ee" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
                         <a href="https://en.wikipedia.org/wiki/Cherry" target="_blank"><i
@@ -44,18 +51,43 @@
         </section>
         <section class="blue">
             <div class="container">
-                <h3>Trending categories</h3>
-                <h3>Home</h3>
+                <div class="row flex_space_between  ">
+                    <nav class="column-dropdown">
+                        <ul class="dropdown-list">
+                            <li class="dropdown-parent">
+                                Trending Categories
+                                <ul class="dropdown-menu">
+                                    <li> <a href="#">Body Lotion</a> </li>
+                                    <li> <a href="#">Electronics</a></li>
+                                    <li> <a href="#">Woman Clothes</a></li>
+                                    <li> <a href="#">Shoes</a></li>
+                                    <li> <a href="#">Watch</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="column-top-menu flex">
+                        <a href="#">Home</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Vendors</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                    <nav class="column-top-contact">
+                        <a href="#">592-245-2488</a>
+                    </nav>
+
+                </div>
             </div>
         </section>
     </header>
 
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row-banner grid">
                 <div class="column">
                     <nav>
-                        <ul>
+                        <ul class="ul-border-trending">
                             <li><a href="#">Electronics</a> </li>
                             <li><a href="#">Computer Gadget</a></li>
                             <li><a href="#">Fashion</a></li>
@@ -69,11 +101,11 @@
                 </div>
                 <div class="column">
                     <img src="./vr.webp" alt="VR">
-                    <div class="banner">
+                    <!-- <div class="banner">
                         <h1 id="cool_id" class="one">Explore our latest and greatest electronics</h1>
                         <h1 class="two">Explore our latest and greatest electronics</h1>
                         <h1 class="three">Explore our latest and greatest electronics</h1>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -83,5 +115,4 @@
     </footer>
 
 </body>
-
 </html>
