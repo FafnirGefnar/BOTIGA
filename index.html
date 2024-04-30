@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,34 +18,41 @@
             <div class="container">
                 <div class="row flex_space_between">
                     <div class="column">
-                        <a href="https://demo.athemes.com/themes/?theme=Botiga%20Multi%20Vendor" target="_blank">
-                            <img src="./botiga_logo.svg" alt="botiga logo">
+                        <a class="logo" href="https://demo.athemes.com/themes/?theme=Botiga%20Multi%20Vendor" target="_blank">
+                            <img class="logo__img" src="./botiga_logo.svg" alt="botiga logo">
                         </a>
                     </div>
                     <div class="column">
-                        <form action="#">
-                            <select name="#" id="#">
-                                <option value="">All categories</option>
-                                <option value="">Body Lotion</option>
-                                <option value="">Electronics</option>
-                                <option value="">Watch</option>
-                                <option value="">Sports</option>
-                                <option value="">Woman Clothes</option>
-                                <option value="">Shoes</option>
-                                <option value="">General</option>
-                                <option value="">Computer Gadget</option>
-                                <option value="">Fashion</option>
-                                <option value="">Sports</option>
+                        <form class="searchbar" action="#">
+                            <select class="searchbar__select" name="#" id="#">
+                                <option class="searchbar__select__option" value="">All categories</option>
+                                <option class="searchbar__select__option" value="">Body Lotion</option>
+                                <option class="searchbar__select__option" value="">Electronics</option>
+                                <option class="searchbar__select__option" value="">Watch</option>
+                                <option class="searchbar__select__option" value="">Sports</option>
+                                <option class="searchbar__select__option" value="">Woman Clothes</option>
+                                <option class="searchbar__select__option" value="">Shoes</option>
+                                <option class="searchbar__select__option" value="">General</option>
+                                <option class="searchbar__select__option" value="">Computer Gadget</option>
+                                <option class="searchbar__select__option" value="">Fashion</option>
+                                <option class="searchbar__select__option" value="">Sports</option>
                             </select>
-                            <input type="text">
-                            <input type="submit" value="&#128269;">
+                            <input class="searchbar__form" type="text">
+                            <input class="searchbar__icon" type="submit" value="&#128269;">
                         </form>
                     </div>
                     <div class="column top-right-menu-logos">
-                        <a href="https://maps.google.com" target="_blank"><i class="fa-solid fa-user"></i></a>
-                        <a href="https://hesburger.ee" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="https://en.wikipedia.org/wiki/Cherry" target="_blank"><i
-                                class="fa-solid fa-heart"></i></a>
+                        <ul class="iconmenu">
+                            <li class="iconmenu__listitem">
+                                <a class="iconmenu__listanchor" href="https://maps.google.com" target="_blank"><i class="fa-solid fa-user"></i></a>
+                            </li>
+                            <li class="iconmenu__listitem">
+                                <a class="iconmenu__listanchor" href="https://hesburger.ee" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                            <li class="iconmenu__listitem">
+                                <a class="iconmenu__listanchor" href="https://en.wikipedia.org/wiki/Cherry" target="_blank"><i class="fa-solid fa-heart"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -52,29 +60,33 @@
         <section class="blue">
             <div class="container">
                 <div class="row flex_space_between  ">
-                    <nav class="column-dropdown">
-                        <ul class="dropdown-list">
-                            <li class="dropdown-parent">
+                    <nav class="dropdown">
+                        <ul class="dropdown__list">
+                            <li class="dropdown__parent">
                                 Trending Categories
-                                <ul class="dropdown-menu">
-                                    <li> <a href="#">Body Lotion</a> </li>
-                                    <li> <a href="#">Electronics</a></li>
-                                    <li> <a href="#">Woman Clothes</a></li>
-                                    <li> <a href="#">Shoes</a></li>
-                                    <li> <a href="#">Watch</a></li>
+                                <ul class="dropdown__menu">
+                                    <li class="dropdown__item"> <a href="#">Body Lotion</a> </li>
+                                    <li class="dropdown__item"> <a href="#">Electronics</a></li>
+                                    <li class="dropdown__item"> <a href="#">Woman Clothes</a></li>
+                                    <li class="dropdown__item"> <a href="#">Shoes</a></li>
+                                    <li class="dropdown__item"> <a href="#">Watch</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </nav>
-                    <nav class="column-top-menu flex">
-                        <a href="#">Home</a>
-                        <a href="#">Shop</a>
-                        <a href="#">Vendors</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Contact</a>
+                    <nav class="navmenu">
+                        <ul class="navmenu__list flex">
+                            <li class="navmenu__item"><a href="#">Home</a></li>
+                            <li class="navmenu__item"><a href="#">Shop</a></li>
+                            <li class="navmenu__item"><a href="#">Vendors</a></li>
+                            <li class="navmenu__item"><a href="#">Blog</a></li>
+                            <li class="navmenu__item"><a href="#">Contact</a> </li>
+                        </ul>
                     </nav>
-                    <nav class="column-top-contact">
-                        <a href="#">592-245-2488</a>
+                    <nav class="contactinfo">
+                        <a class="contactinfo__anchor" href="#"><i class="fa fa-phone"></i>
+                            <span class="contactinfo__text">592-245-2488</span>
+                        </a>
                     </nav>
 
                 </div>
@@ -86,26 +98,24 @@
         <div class="container">
             <div class="row-banner grid">
                 <div class="column">
-                    <nav>
-                        <ul class="ul-border-trending">
-                            <li><a href="#">Electronics</a> </li>
-                            <li><a href="#">Computer Gadget</a></li>
-                            <li><a href="#">Fashion</a></li>
-                            <li><a href="#">Body Lotion</a></li>
-                            <li><a href="#">Sports</a></li>
-                            <li><a href="#">Woman Clothes</a></li>
-                            <li><a href="#">Shoes</a></li>
-                            <li><a href="#">Watches</a></li>
+                    <nav class="boxmenu">
+                        <ul class="boxmenu__list">
+                            <li class="boxmenu__listitem"><a href="#">Electronics</a> </li>
+                            <li class="boxmenu__listitem"><a href="#">Computer Gadget</a></li>
+                            <li class="boxmenu__listitem"><a href="#">Fashion</a></li>
+                            <li class="boxmenu__listitem"><a href="#">Body Lotion</a></li>
+                            <li class="boxmenu__listitem"><a href="#">Sports</a></li>
+                            <li class="boxmenu__listitem"><a href="#">Woman Clothes</a></li>
+                            <li class="boxmenu__listitem"><a href="#">Shoes</a></li>
+                            <li class="boxmenu__listitem"><a href="#">Watches</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="column">
-                    <img src="./vr.webp" alt="VR">
-                    <!-- <div class="banner">
-                        <h1 id="cool_id" class="one">Explore our latest and greatest electronics</h1>
-                        <h1 class="two">Explore our latest and greatest electronics</h1>
-                        <h1 class="three">Explore our latest and greatest electronics</h1>
-                    </div> -->
+                    <div class="banner">
+                        <div class="banner__container">
+                            <h1 class="banner__heading">Explore our latest and greatest electronics</h1>
+                            <a class="button button--white" href="#">SHOP NOW</a>
+                        </div>
                 </div>
             </div>
         </div>

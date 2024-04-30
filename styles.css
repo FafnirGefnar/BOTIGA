@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: snow;
     font-family: "Sen", sans-serif;
@@ -8,6 +13,8 @@ ul.dropdown-list {
     padding: 0;
 }
 
+
+
 .grid {
     display: grid;
 }
@@ -16,6 +23,20 @@ ul.dropdown-list {
     margin-top: 30px;
     grid-template-columns: 3fr 7fr;
     gap: 30px;
+}
+
+.iconmenu {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.iconmenu__listitem {
+    margin-left: 10px;
+}
+
+.contactinfo__text{
+    margin-left: 5px;
 }
 
 .one {
@@ -51,14 +72,14 @@ a {
     color: inherit;
 }
 
-nav ul li a {
+.boxmenu__listitem {
     padding: 5px 10px;
     display: block;
     border-bottom: 1px solid rgb(200, 200, 200);
     text-decoration: none;
 }
 
-ul.ul-border-trending {
+.boxmenu__list {
     margin: 0;
     padding: 0;
     border: 1px solid rgb(200, 200, 200);
@@ -105,7 +126,7 @@ img {
     justify-content: space-between;
 }
 
-.dropdown-menu {
+.dropdown__menu {
     display: none;
 }
 
@@ -113,21 +134,37 @@ img {
     color: royalblue;
 }
 
-.column-top-menu {
+/* .navmenu {
+
+} */
+
+.navmenu__list {
     gap: 20px;
 }
 
-li.dropdown-parent:hover{
+.dropdown:hover{
     color: rgb(255, 132, 173);
 }
 
-/* #cool_id {
-    
-} */
+.logo__img {
+    max-height: 25px;
+  }
 
-/* .banner {
-    background-image: url(sakura_fuji.jpg);
+.banner {
+    background-image: url(vr.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-} */
+    min-height: 40vh;
+}
+
+.banner__heading {
+    color: snow;
+    font-size: 30px;
+    max-width: 50%;
+    padding-left: 30px;
+    padding-top: 40px;
+    
+}
+
+
