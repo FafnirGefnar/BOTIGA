@@ -180,7 +180,7 @@ img {
 
 .button {
     display: inline-block;
-    padding: 15px;
+    padding: 1em;
     letter-spacing: 2px;
     border-radius: 6px;
     letter-spacing: 2px;
@@ -222,3 +222,28 @@ img {
 .h1-popular {
     padding: 30px;
 }
+
+* {
+    box-sizing: border-box;
+  }
+
+  .row-popular {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 80px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .newarrival-h1 {
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .arrivalproducts {
+    background-color: #ebf0d6;
+  }
+
+
+  
