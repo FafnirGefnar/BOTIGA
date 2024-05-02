@@ -21,7 +21,7 @@ ul.dropdown-list {
 
 .row-banner {
     margin-top: 30px;
-    grid-template-columns: 3fr 7fr;
+    grid-template-columns: 2fr 8fr;
     gap: 30px;
 }
 
@@ -33,9 +33,11 @@ ul.dropdown-list {
 
 .iconmenu__listitem {
     margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
-.contactinfo__text{
+.contactinfo__text {
     margin-left: 5px;
 }
 
@@ -53,6 +55,9 @@ ul.dropdown-list {
 
 h1 {
     font-size: 40px;
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 h2 {
@@ -83,6 +88,7 @@ a {
     margin: 0;
     padding: 0;
     border: 1px solid rgb(200, 200, 200);
+    line-height: 2;
 
 }
 
@@ -100,7 +106,7 @@ ul {
 }
 
 .white {
-    padding: 10px;
+    padding: 15px;
     background-color: snow;
     /* text-align: center; /////control+ä - comment shorcut*/
     color: snow;
@@ -114,7 +120,7 @@ ul {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 img {
@@ -124,6 +130,7 @@ img {
 
 .flex_space_between {
     justify-content: space-between;
+    align-items: center;
 }
 
 .dropdown__menu {
@@ -142,13 +149,13 @@ img {
     gap: 20px;
 }
 
-.dropdown:hover{
+.dropdown:hover {
     color: rgb(255, 132, 173);
 }
 
 .logo__img {
     max-height: 25px;
-  }
+}
 
 .banner {
     background-image: url(vr.webp);
@@ -156,15 +163,62 @@ img {
     background-size: cover;
     background-position: center;
     min-height: 40vh;
+    display: flex;
+    align-items: center;
 }
 
 .banner__heading {
     color: snow;
-    font-size: 30px;
+    font-size: 34px;
     max-width: 50%;
-    padding-left: 30px;
-    padding-top: 40px;
-    
+
 }
 
+.banner__container {
+    padding: 40px;
+}
 
+.button {
+    display: inline-block;
+    padding: 15px;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    border: 2px solid royalblue;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.overlock-regular {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.overlock-bold {
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.searchbar__form {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.searchbar__icon {
+    padding: 10px;
+}
+
+.searchbar__select {
+    padding: 10px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.h1-popular {
+    padding: 30px;
+}
