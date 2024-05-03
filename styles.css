@@ -72,6 +72,13 @@ h2 {
     display: flex;
 }
 
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -235,15 +242,73 @@ img {
     line-height: 1.5;
   }
 
-  .newarrival-h1 {
+  .product__h1 {
     text-transform: capitalize;
     text-align: center;
-    padding-top: 100px;
+    margin-bottom: 40px;
   }
 
-  .arrivalproducts {
+  .new-arrival-products-section {
     background-color: #ebf0d6;
+    padding-top: 90px;
   }
 
+  .product__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
 
+  .product__item {
+    text-transform: capitalize;
+    font-family: "Overlock", sans-serif;
+  }
+
+  .product__name {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+  }
+
+  .product__price {
+    font-family: "Sen", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .product__rating {
+    text-align: center;
+    color: #ffa441;
+  }
+
+ .product__ratingamount {
+    display: inline;
+    color: black;
+    font-family: "Sen", sans-serif;
+}
+
+.product__option {
+    display: flex;
+    padding: 2px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.product__option-arsenic {
+    background-color: #bfb9a6;
+}
+
+.product__option-silver {
+    background-color: #dddddd;
+}
+.product__option-white {
+    background-color: white;
+}
+
+ .section-vendors {
+    background-color: snow;
+}
   
