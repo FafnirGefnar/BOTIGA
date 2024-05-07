@@ -193,7 +193,6 @@ img {
     letter-spacing: 2px;
     border: 2px solid royalblue;
     background-color: white;
-    margin-top: 15px;
 }
 
 .overlock-regular {
@@ -251,12 +250,14 @@ img {
   .new-arrival-products-section {
     background-color: #ebf0d6;
     padding-top: 90px;
+    padding-bottom: 70px;
   }
 
   .product__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    padding-bottom: 40px;
   }
 
   .product__item {
@@ -312,3 +313,16 @@ img {
     background-color: snow;
 }
   
+.button-blue{
+    background-color: royalblue;
+    color: snow;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.flex--verticalcenter{
+    text-align: center;
+}
+
