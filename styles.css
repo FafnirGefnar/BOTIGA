@@ -346,3 +346,26 @@ img {
     right: 0;
     left: 0;
 }
+
+.botiga-wishlist-icon:hover path{
+    fill: pink;
+    stroke-width: 2px;
+}
+
+.botiga-wishlist-icon{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: +1;
+    stroke-width: 2px;
+}
+
+.icon-border {
+    display: flex;
+    padding: 2px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: snow;
+}
