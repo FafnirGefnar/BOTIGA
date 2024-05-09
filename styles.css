@@ -75,6 +75,7 @@ h2 {
 .inline {
     display: inline;
 }
+
 .inline-block {
     display: inline-block;
 }
@@ -231,59 +232,59 @@ img {
 
 * {
     box-sizing: border-box;
-  }
+}
 
-  .row-popular {
+.row-popular {
     display: flex;
     gap: 30px;
     padding-bottom: 80px;
     text-align: center;
     line-height: 1.5;
-  }
+}
 
-  .product__h1 {
+.product__h1 {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 40px;
-  }
+}
 
-  .new-arrival-products-section {
+.new-arrival-products-section {
     background-color: #ebf0d6;
     padding-top: 90px;
     padding-bottom: 70px;
-  }
+}
 
-  .product__list {
+.product__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding-bottom: 40px;
-  }
+}
 
-  .product__item {
+.product__item {
     text-transform: capitalize;
     font-family: "Overlock", sans-serif;
-  }
+}
 
-  .product__name {
+.product__name {
     font-size: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
     display: block;
-  }
+}
 
-  .product__price {
+.product__price {
     font-family: "Sen", sans-serif;
     padding-top: 15px;
     padding-bottom: 15px;
-  }
+}
 
-  .product__rating {
+.product__rating {
     text-align: center;
     color: #ffa441;
-  }
+}
 
- .product__ratingamount {
+.product__ratingamount {
     display: inline;
     color: black;
     font-family: "Sen", sans-serif;
@@ -305,24 +306,43 @@ img {
 .product__option-silver {
     background-color: #dddddd;
 }
+
 .product__option-white {
     background-color: white;
 }
 
- .section-vendors {
+.section-vendors {
     background-color: snow;
 }
-  
-.button-blue{
+
+.button-blue {
     background-color: royalblue;
     color: snow;
 }
 
-.text-align-center{
+.text-align-center {
     text-align: center;
 }
 
-.flex--verticalcenter{
+.flex--verticalcenter {
     text-align: center;
+    position: absolute;
+    top: 0;
+    /* background: #d28b30; */
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
 }
 
+.product__imageholder {
+    position: relative;
+}
+
+.bottompos {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
