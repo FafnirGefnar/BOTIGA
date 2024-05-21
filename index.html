@@ -19,6 +19,10 @@
 </head>
 
 <body>
+    <button id="myBtn" title="Go to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
     <header>
         <section class="white">
             <div class="container">
@@ -100,7 +104,9 @@
                         </a>
                     </nav>
                     <span class="burgermenu">
-                        <i class="fa-solid fa-bars"></i>
+                        <a href="#">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
                     </span>
                 </div>
             </div>
@@ -108,7 +114,12 @@
     </header>
 
     <aside class="mobilemenu">
-        <ul>
+        <span class="close">
+            <a href="#">
+                <i class="fa-solid fa-xmark"></i>
+            </a>
+        </span>
+        <ul class="mobilemenu__list">
             <li class="navmenu__item"><a href="#">Home</a></li>
             <li class="navmenu__item"><a href="#">Shop</a></li>
             <li class="navmenu__item"><a href="#">Vendors</a></li>
@@ -334,6 +345,9 @@
             molestiae aspernatur sed assumenda enim.
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

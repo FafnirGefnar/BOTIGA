@@ -393,8 +393,64 @@ img {
     display: none;
 }
 
+/* .close{
+    #
+} */
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+.mobilemenu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: snow;
+    z-index: +3;
+    padding: 60px;
+    line-height: 3;
+
+}
+
+.mobilemenuvisible::before{
+    content: "";
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 60%;
+    z-index: +2;
+}
+
+
 @media screen and (min-width: 800px){
     .navmenu__list.flex {
         display: flex;
+    }
+    .mobilemenu, .burgermenu{
+        display: none;
     }
 }
